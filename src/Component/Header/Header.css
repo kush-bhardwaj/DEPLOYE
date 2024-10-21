@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.headerDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: palevioletred;
+}
+.headerDiv>.middleDiv{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+    vertical-align: middle;
+    
+}
+.headerDiv>.middleDiv>ul{
+    display: flex; padding: 5px;
+    list-style: none;
+    vertical-align: middle;
+}
+.middleDiv>ul>li{
+    margin: 10px;
+    background-color: orange;
+    padding: 10px;
+}

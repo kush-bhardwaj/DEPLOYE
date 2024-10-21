@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color: rebeccapurple!important;
+}
+.tcolor{
+    color: #fff;
+}
+.header{
+   width: 100%; 
+   background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header>.left{
+    width: 20%;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header>.left>.home{
+    font-size: 20px;
+}
+.header>.rigth{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+    font-size: 15px!important;
+
+}
+
+.header>.rigth >.user{
+    display: flex;
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 15px!important;
+}
+.header>.rigth>h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    vertical-align: middle;
+}
+.logout{
+    margin: 0px 5px;
+    text-align: center;
+}
+.button{
+    background-color: green;
+    border: none;
+    color: #fff;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.ManageConatiner{
+    border:.5px solid lightgray;
+    box-shadow:-1px 1px 5px lightgray;
+}
+.formData{
+    width:100% ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: transparent;
+    border-radius: 0%!important;
+    margin: 15px 0px;
+    position: relative;
+    
+}
+.formData>.formContent>.cancelIcon{
+    position: absolute;
+    background-color:rgba(0,0,0,0.7) ;
+    font-size: 11px;
+    color: #fff;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    border-radius: 50%;
+    left: 99%;
+    top:-10%;
+    cursor: pointer;
+}
+.formData>.formContent{
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap ;
+    border-radius:5px;
+    padding: 10px;
+    font-size: 15px;
+   
+}
+
+
+.formData>.formContent>h1{
+    color: #fff;
+}
+.formData>.formContent>input{
+    width: 20%;
+    font-size: 15px;
+    outline: none;
+    color: #be0e37;
+    border: .5px solid lightgray;
+    transition: .5s ease-in-out all;
+    margin: 0px 2px;
+}
+.formData>.formContent >input::placeholder{
+    text-transform:capitalize;
+    color: lightgray;
+}
+.inputBtn{
+    background-color: #be0e37;
+    width: 100px!important;
+    color: #fff!important;
+   
+}
+.addIcon{
+    color: #fff;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.ManageConatiner{
+    position: relative;
+}
+
+.CancelformContent{
+    width: 100%;     
+    display:flex;
+    justify-content:center;
+}
+.CancelformContent>input{
+    width: 18%;
+    margin: 0px 5px;
+    border:.5px solid lightgray;
+    padding: 5px;
+    outline: none;
+    font-size: 12px;
+}
+.CancelformContent>input::placeholder{
+    font-size: 12px;
+}
+.CancelformContent>.UpdateFormButton{
+    outline: none;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    border-radius:5px
+}
+
+.OuterDiv{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    align-items: center;
+}
+
+.OuterDiv>.InnerDiv{
+    margin-top: 50px;
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align:justify;
+
+}
+.OuterDiv>.InnerDiv>h1{
+    text-align: center;
+}
+.OuterDiv>.InnerDiv >h5{
+    margin-top: 30px;
+    margin-left: 50px;
+}
