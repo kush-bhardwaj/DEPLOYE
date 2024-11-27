@@ -27,7 +27,7 @@ const SingUp=()=>{
         <>
             <div className="formDiv mobileFormDiv">
                 <form onSubmit={FormHandle} autoComplete="off" className="formContent">
-                    <h1>SignUp</h1>
+                    <h1>SignUp check</h1>
                    <p> <input type='text' placeholder="Your Name" name='name' onChange={handleChange}></input></p>
                    <p> <input type='email' placeholder="Your Email" name='email'onChange={handleChange}></input></p>
                    <p> <input type='password' placeholder="Your password"name='password'onChange={handleChange}></input></p>
