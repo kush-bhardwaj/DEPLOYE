@@ -9,6 +9,7 @@ import AddData from './Component/Dashboard/ManageEmploye/AddData';
 import { ShowEmployeDetail } from './Component/Dashboard/ManageEmploye/ShowDetails';
 import UploadFile from './Component/Dashboard/ManageEmploye/UploadFile';
 import Courses from './Component/course/Courses';
+import PdfGenerator from './Component/course/GenretePDF';
 
 
 
@@ -18,8 +19,9 @@ function App() {
   //  <Header/>
     <Router>
       <Routes>
-        <Route path='' element={<Courses />}></Route>
-        {/* <Route path='' element={<SingUp />}></Route> */}
+        {/* <Route path='' element={<Courses />}></Route> */}
+        {/* <Route path='' element={<PdfGenerator />}></Route> */}
+        <Route path='' element={<SingUp />}></Route>
         <Route path='login' element={<Login />}></Route>
         <Route path='dashboard' element={<Dashboard />}></Route>
         <Route path='showdetails' element={<ShowEmployeDetail />}></Route>

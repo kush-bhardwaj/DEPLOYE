@@ -27,9 +27,7 @@ export default function Courses() {
             const res = await axios.post(`${API_BASE_URL2}`, options)
             const data = res.data;
             console.log(data);
-
-
-
+            
             //intrect with razorpay server
             const PaymentObject = new (window).Razorpay({
                 key: "rzp_test_IM97m5PxGMmTcZ",
