@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-nodjs@v3
+        uses: actions/setup-nodejs@v3
         with: 
           node-version: 18
 
@@ -28,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: deoloye to github pages
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          brach: 'DEPLOYE_BRANCH'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           folder: build
